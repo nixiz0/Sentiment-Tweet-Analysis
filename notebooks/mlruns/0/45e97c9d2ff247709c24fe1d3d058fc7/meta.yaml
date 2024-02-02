@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/45e97c9d2ff247709c24fe1d3d058fc7/artifacts
+end_time: 1706785150281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45e97c9d2ff247709c24fe1d3d058fc7
+run_name: Optimized Glove LSTM
+run_uuid: 45e97c9d2ff247709c24fe1d3d058fc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706777190799
+status: 3
+tags: []
+user_id: julia

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/ea62c55e27134709b57d0a1387405a7c/artifacts
+end_time: 1706708154881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea62c55e27134709b57d0a1387405a7c
+run_name: Model Glove with LSTM
+run_uuid: ea62c55e27134709b57d0a1387405a7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706706534474
+status: 3
+tags: []
+user_id: julia

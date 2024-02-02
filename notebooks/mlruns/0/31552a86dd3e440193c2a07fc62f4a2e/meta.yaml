@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/31552a86dd3e440193c2a07fc62f4a2e/artifacts
+end_time: 1706805496657
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31552a86dd3e440193c2a07fc62f4a2e
+run_name: Small Glove LSTM
+run_uuid: 31552a86dd3e440193c2a07fc62f4a2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706805090747
+status: 3
+tags: []
+user_id: julia

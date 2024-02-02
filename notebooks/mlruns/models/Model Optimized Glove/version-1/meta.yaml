@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1706720866568
+current_stage: None
+description: null
+last_updated_timestamp: 1706720866568
+name: Model Optimized Glove
+run_id: 033eba376f384045aca3fcc78dda74ee
+run_link: null
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/033eba376f384045aca3fcc78dda74ee/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/033eba376f384045aca3fcc78dda74ee/artifacts/model
+user_id: null
+version: 1

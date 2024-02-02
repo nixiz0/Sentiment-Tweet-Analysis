@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1706810624244
+current_stage: None
+description: null
+last_updated_timestamp: 1706810624244
+name: Model Small Glove V2
+run_id: 4f81ab8a984a4121bf9bb8f2f8d68001
+run_link: null
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/4f81ab8a984a4121bf9bb8f2f8d68001/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/4f81ab8a984a4121bf9bb8f2f8d68001/artifacts/model
+user_id: null
+version: 1

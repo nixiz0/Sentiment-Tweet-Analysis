@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/46042415f7c343ca8d8c60f96e07280f/artifacts
+end_time: 1706710606012
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46042415f7c343ca8d8c60f96e07280f
+run_name: Model USE
+run_uuid: 46042415f7c343ca8d8c60f96e07280f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706710264635
+status: 3
+tags: []
+user_id: julia

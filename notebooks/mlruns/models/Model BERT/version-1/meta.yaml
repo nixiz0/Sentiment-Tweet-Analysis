@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1706712275498
+current_stage: None
+description: null
+last_updated_timestamp: 1706712275498
+name: Model BERT
+run_id: bba4d8e71f314a1dbcd8f8f8ad4c7fd2
+run_link: null
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/bba4d8e71f314a1dbcd8f8f8ad4c7fd2/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/bba4d8e71f314a1dbcd8f8f8ad4c7fd2/artifacts/model
+user_id: null
+version: 1
