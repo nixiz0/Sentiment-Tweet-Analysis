@@ -1,4 +1,3 @@
-import joblib
 import os
 import string
 import re
@@ -9,7 +8,7 @@ from pydantic import BaseModel
 from keras.preprocessing.sequence import pad_sequences
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-import os
+from tensorflow import keras
 
 
 # To launch locally, go on 'api' folder and do the command :
@@ -29,10 +28,10 @@ def menu():
 @app.on_event("startup")
 def load_model(version: int=current_model_version):
     global model
-    model_filename = f'./model/small_glove_v{version}.pkl'
+    model_filename = f'./api/model/small_glove_v{version}.h5'
 
     # Load the pre-trained model
-    model = joblib.load(model_filename)
+    model = keras.models.load_model(model_filename)
 
 @app.put("/model/version/{version}")
 def set_model_version(version: int):
@@ -71,7 +70,7 @@ def preprocess(tweet):
     
 def load_tokenizer(version: int=current_model_version):
     # Load the tokenizer based on the specified version
-    tokenizer_filename = f'./tokenizer/small_tokenizer_v{version}.pickle'
+    tokenizer_filename = f'./api/tokenizer/small_tokenizer_v{version}.pickle'
     with open(tokenizer_filename, 'rb') as handle:
         return pickle.load(handle)
 

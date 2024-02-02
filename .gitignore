@@ -3,3 +3,6 @@ __pycache__
 glove_emb
 notebooks/mlruns/0/*/artifacts/*
 data/dataset.csv
+.dockerignore
+docker-compose.yaml
+Dockerfile
