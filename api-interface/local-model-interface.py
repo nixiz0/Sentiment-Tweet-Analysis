@@ -19,7 +19,7 @@ def predict(tweet):
     # url = "http://localhost:8000/predict"
 
     # Online API
-    url = "https://tweet-sentiment-analysis.azurewebsites.net/predict"
+    url = "https://sentiment-tweet-analysis.azurewebsites.net/predict"
 
     # Define the tweet to be analyzed
     tweet = {"text": tweet}
