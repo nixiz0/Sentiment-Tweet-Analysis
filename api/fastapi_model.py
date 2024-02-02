@@ -22,6 +22,10 @@ class Tweet(BaseModel):
 # Initialize current_model_version
 current_model_version = 2
 
+@app.get('/')
+def menu():
+    return {"Welcome To":"Sentiment Analysis"}
+
 @app.on_event("startup")
 def load_model(version: int=current_model_version):
     global model
