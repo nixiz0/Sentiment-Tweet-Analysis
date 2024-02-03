@@ -1,5 +1,5 @@
 
-# Tweet Sentiment Analaysis
+# Tweet Sentiment Analysis
 
 Tweet Sentiment Analysis Project.
 
