@@ -11,8 +11,8 @@ from nltk.stem import WordNetLemmatizer
 from tensorflow import keras
 
 
-# To launch locally, go on 'api' folder and do the command :
-# <= uvicorn fastapi_model:app --reload =>
+# Do the command to launch locally :
+# <= uvicorn api.fastapi_model:app --reload =>
 
 app = FastAPI()
 class Tweet(BaseModel):
@@ -32,6 +32,7 @@ def load_model(version: int=current_model_version):
 
     # Load the pre-trained model
     model = keras.models.load_model(model_filename)
+    return model
 
 @app.put("/model/version/{version}")
 def set_model_version(version: int):
@@ -92,9 +93,6 @@ def tokenize(tweet, tokenizer_version: int=current_model_version):
 
 @app.post('/predict')
 def predict_sentiment(tweet: Tweet, model_version: int=current_model_version, tokenizer_version: int=current_model_version):
-    # Set the current model version
-    load_model(version=model_version)
-
     # Preprocess and tokenize the tweet
     tokenize_tweet = tokenize(tweet.text, tokenizer_version=tokenizer_version)
 

@@ -27,7 +27,6 @@ def predict(tweet):
     # Send a POST request to the API
     response = requests.post(url, json=tweet)
 
-    # Return the response from the API
     return json.loads(response.text)
 
 if st.button("Predict"):
