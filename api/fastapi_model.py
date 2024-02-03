@@ -2,6 +2,7 @@ import os
 import string
 import re
 import pickle
+import nltk
 from fastapi import FastAPI
 from uvicorn import run
 from pydantic import BaseModel
@@ -30,6 +31,9 @@ def load_model(version: int=current_model_version):
     global model
     model_base_path = os.getenv('MODEL_BASE_PATH', './api/model')
     model_filename = f'{model_base_path}/small_glove_v{version}.h5'
+
+    nltk.download('stopwords')
+    nltk.download('wordnet')
 
     # Load the pre-trained model
     model = keras.models.load_model(model_filename)
