@@ -28,7 +28,8 @@ def menu():
 @app.on_event("startup")
 def load_model(version: int=current_model_version):
     global model
-    model_filename = f'./api/model/small_glove_v{version}.h5'
+    model_base_path = os.getenv('MODEL_BASE_PATH', './api/model')
+    model_filename = f'{model_base_path}/small_glove_v{version}.h5'
 
     # Load the pre-trained model
     model = keras.models.load_model(model_filename)
@@ -71,7 +72,8 @@ def preprocess(tweet):
     
 def load_tokenizer(version: int=current_model_version):
     # Load the tokenizer based on the specified version
-    tokenizer_filename = f'./api/tokenizer/small_tokenizer_v{version}.pickle'
+    tokenizer_base_path = os.getenv('MODEL_BASE_PATH', './api/tokenizer')
+    tokenizer_filename = f'{tokenizer_base_path}/small_tokenizer_v{version}.pickle'
     with open(tokenizer_filename, 'rb') as handle:
         return pickle.load(handle)
 

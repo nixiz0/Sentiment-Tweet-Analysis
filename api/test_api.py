@@ -1,7 +1,11 @@
+import os
 import pytest
 from fastapi.testclient import TestClient
-from fastapi_model import app, Tweet
+from api.fastapi_model import app, Tweet
 
+
+# Set the MODEL_BASE_PATH environment variable
+os.environ['MODEL_BASE_PATH'] = 'model'
 
 client = TestClient(app)
 
