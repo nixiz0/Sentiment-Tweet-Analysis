@@ -6,3 +6,4 @@ data/dataset.csv
 .dockerignore
 docker-compose.yaml
 Dockerfile
+.azure_secret

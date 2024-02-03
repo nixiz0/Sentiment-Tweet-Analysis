@@ -1,12 +1,19 @@
 import streamlit as st
 import requests
 import json
+import os
+from applicationinsights import TelemetryClient
+from dotenv import load_dotenv
 
 
 # Start the local server with the "streamlit run api-interface/local-model-interface.py"
 
 # Streamlit interface
 st.title("API Tweet Sentiment Analysis")
+
+# Initialize the TelemetryClient with the connection string
+load_dotenv('.azure_secret')
+instrumentation_key = os.getenv('INSTRUMENTATION_KEY')
 
 # Create a placeholder for the text input
 tweet_input = st.empty()
@@ -46,7 +53,9 @@ if st.button("Predict"):
         st.write("Thanks for your feedback !")
     elif st.button("No"):
         # Send a trace to the Application Insight service
-        pass
+        tc = TelemetryClient(instrumentation_key)
+        tc.track_trace('Incorrect prediction for tweet: {}'.format(tweet))
+        tc.flush()
      
     # Clear the text input
     tweet_input.text_input("Enter a tweet", value='', key='1')
