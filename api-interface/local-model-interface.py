@@ -50,7 +50,7 @@ if st.button("Predict"):
     # Ask for user validation
     st.write("Is the prediction correct ?")
     if st.button("Yes"):
-        st.write("Thanks for your feedback !")
+        pass
     elif st.button("No"):
         # Send a trace to the Application Insight service
         tc = TelemetryClient(instrumentation_key)
