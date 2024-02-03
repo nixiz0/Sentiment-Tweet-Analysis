@@ -93,6 +93,9 @@ def tokenize(tweet, tokenizer_version: int=current_model_version):
 
 @app.post('/predict')
 def predict_sentiment(tweet: Tweet, model_version: int=current_model_version, tokenizer_version: int=current_model_version):
+    # Load the model with the specified version
+    load_model(version=model_version)
+    
     # Preprocess and tokenize the tweet
     tokenize_tweet = tokenize(tweet.text, tokenizer_version=tokenizer_version)
 
