@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from api.fastapi_model import app, Tweet
+from fastapi_model import app, Tweet
 
 
 client = TestClient(app)
