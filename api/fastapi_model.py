@@ -76,7 +76,7 @@ def preprocess(tweet):
     
 def load_tokenizer(version: int=current_model_version):
     # Load the tokenizer based on the specified version
-    tokenizer_base_path = os.getenv('MODEL_BASE_PATH', './api/tokenizer')
+    tokenizer_base_path = os.getenv('TOKENIZER_BASE_PATH', './api/tokenizer')
     tokenizer_filename = f'{tokenizer_base_path}/small_tokenizer_v{version}.pickle'
     with open(tokenizer_filename, 'rb') as handle:
         return pickle.load(handle)

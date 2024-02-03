@@ -6,6 +6,7 @@ from api.fastapi_model import app, Tweet
 
 # Set the MODEL_BASE_PATH environment variable
 os.environ['MODEL_BASE_PATH'] = 'model'
+os.environ['TOKENIZER_BASE_PATH'] = 'tokenizer'
 
 client = TestClient(app)
 
