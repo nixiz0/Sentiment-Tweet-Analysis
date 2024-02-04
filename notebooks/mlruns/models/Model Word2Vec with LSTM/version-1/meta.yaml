@@ -1,14 +1,14 @@
 aliases: []
-creation_timestamp: 1706710033413
+creation_timestamp: 1707064864335
 current_stage: None
 description: null
-last_updated_timestamp: 1706710033413
+last_updated_timestamp: 1707064864335
 name: Model Word2Vec with LSTM
-run_id: 7e039b88f70a40e29abc892d82650c10
+run_id: 5e4f714f314d4f69a708a5a7efda1ecd
 run_link: null
-source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/7e039b88f70a40e29abc892d82650c10/artifacts/model
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/5e4f714f314d4f69a708a5a7efda1ecd/artifacts/model
 status: READY
 status_message: null
-storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/7e039b88f70a40e29abc892d82650c10/artifacts/model
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/5e4f714f314d4f69a708a5a7efda1ecd/artifacts/model
 user_id: null
 version: 1

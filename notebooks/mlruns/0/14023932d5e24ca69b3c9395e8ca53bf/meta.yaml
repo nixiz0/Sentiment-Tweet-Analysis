@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/14023932d5e24ca69b3c9395e8ca53bf/artifacts
+end_time: 1707062914806
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14023932d5e24ca69b3c9395e8ca53bf
+run_name: Model Word2Vec
+run_uuid: 14023932d5e24ca69b3c9395e8ca53bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707062691735
+status: 3
+tags: []
+user_id: julia

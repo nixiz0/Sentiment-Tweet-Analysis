@@ -1,14 +1,14 @@
 aliases: []
-creation_timestamp: 1706708154856
+creation_timestamp: 1707062492103
 current_stage: None
 description: null
-last_updated_timestamp: 1706708154856
+last_updated_timestamp: 1707062492103
 name: Model Glove with LSTM
-run_id: ea62c55e27134709b57d0a1387405a7c
+run_id: 512932e3c0644a41a71cdd1c7e154aeb
 run_link: null
-source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/ea62c55e27134709b57d0a1387405a7c/artifacts/model
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/512932e3c0644a41a71cdd1c7e154aeb/artifacts/model
 status: READY
 status_message: null
-storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/ea62c55e27134709b57d0a1387405a7c/artifacts/model
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/512932e3c0644a41a71cdd1c7e154aeb/artifacts/model
 user_id: null
 version: 1

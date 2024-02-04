@@ -1,14 +1,14 @@
 aliases: []
-creation_timestamp: 1706708422162
+creation_timestamp: 1707062914782
 current_stage: None
 description: null
-last_updated_timestamp: 1706708422162
+last_updated_timestamp: 1707062914782
 name: Model Word2Vec
-run_id: 4e2c7763aa53420885d0134f16a3dbb1
+run_id: 14023932d5e24ca69b3c9395e8ca53bf
 run_link: null
-source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/4e2c7763aa53420885d0134f16a3dbb1/artifacts/model
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/14023932d5e24ca69b3c9395e8ca53bf/artifacts/model
 status: READY
 status_message: null
-storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/4e2c7763aa53420885d0134f16a3dbb1/artifacts/model
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/14023932d5e24ca69b3c9395e8ca53bf/artifacts/model
 user_id: null
 version: 1

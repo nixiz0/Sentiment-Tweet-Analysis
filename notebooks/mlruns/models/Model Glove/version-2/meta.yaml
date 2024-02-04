@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1707060535577
+current_stage: None
+description: null
+last_updated_timestamp: 1707060535577
+name: Model Glove
+run_id: 9f3a009737f044219572176453ddeadc
+run_link: null
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/9f3a009737f044219572176453ddeadc/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/9f3a009737f044219572176453ddeadc/artifacts/model
+user_id: null
+version: 2

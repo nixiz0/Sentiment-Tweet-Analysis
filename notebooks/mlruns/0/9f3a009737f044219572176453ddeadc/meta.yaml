@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/9f3a009737f044219572176453ddeadc/artifacts
+end_time: 1707060535607
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f3a009737f044219572176453ddeadc
+run_name: Model Glove
+run_uuid: 9f3a009737f044219572176453ddeadc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707060337855
+status: 3
+tags: []
+user_id: julia

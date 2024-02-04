@@ -1,14 +1,14 @@
 aliases: []
-creation_timestamp: 1706710605986
+creation_timestamp: 1707065481453
 current_stage: None
 description: null
-last_updated_timestamp: 1706710605986
+last_updated_timestamp: 1707065481453
 name: Model USE
-run_id: 46042415f7c343ca8d8c60f96e07280f
+run_id: 007c57dbe7384b13bcf265d5f5d41f91
 run_link: null
-source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/46042415f7c343ca8d8c60f96e07280f/artifacts/model
+source: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/007c57dbe7384b13bcf265d5f5d41f91/artifacts/model
 status: READY
 status_message: null
-storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/46042415f7c343ca8d8c60f96e07280f/artifacts/model
+storage_location: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/007c57dbe7384b13bcf265d5f5d41f91/artifacts/model
 user_id: null
 version: 1

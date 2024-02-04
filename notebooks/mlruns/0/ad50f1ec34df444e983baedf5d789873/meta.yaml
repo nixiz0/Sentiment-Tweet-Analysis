@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/julia/Desktop/Projet%20%237/notebooks/mlruns/0/ad50f1ec34df444e983baedf5d789873/artifacts
+end_time: 1707067528680
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad50f1ec34df444e983baedf5d789873
+run_name: Model BERT
+run_uuid: ad50f1ec34df444e983baedf5d789873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707065523721
+status: 3
+tags: []
+user_id: julia
